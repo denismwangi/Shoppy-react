@@ -1,0 +1,56 @@
+.dflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+nav{
+
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    display: flex;
+    
+    align-items: center;
+ }
+.logo{
+      font-size: 30px;
+      text-transform:uppercase;
+      float: left;
+      color: blueviolet;
+      font-family: sans-serif;
+ 
+    }
+    
+  nav ul{
+      
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+ 
+ nav ul li{
+   font-size: 14px;
+   margin-left: 15px;
+   padding: 10px;
+   box-sizing: border-box;
+   color: blueviolet;
+   cursor: pointer;
+ }
+ 
+ nav .search{
+   color:black;
+   padding: 10px 10px;
+   font-size: 30px;
+
+ 
+ }
+ nav .search .fa{
+   cursor: pointer;
+ }
+ .nav .search +.fa{
+   margin-left: 15px;
+ }
